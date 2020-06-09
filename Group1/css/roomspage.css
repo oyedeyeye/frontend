@@ -71,8 +71,12 @@ hr{
 }
 
 /* row1 */
+<<<<<<< HEAD
 .row1{
     background-image: url(../images/roompageimages/first.png);
+=======
+.row{
+>>>>>>> upstream/Group1
     background-size: cover;
     height: 60vh;
     margin-top: 100px;
@@ -80,7 +84,12 @@ hr{
     color: #ffffff;
     font-family: poppins;
 }
+.row1{
+    background-image: url("../images//roomspage/first.png");
+    
+}
 .row2{
+<<<<<<< HEAD
     background-image: url(../images/roompageimages/Rectangle\ 5.png);
     background-size: cover;
     height: 60vh;
@@ -106,6 +115,15 @@ hr{
     margin-bottom: 50px;
     color: #ffffff;
     font-family: poppins;
+=======
+    background-image: url("../images/roomspage/second.png");
+}
+.row3{
+    background-image: url("../images/roomspage/third.png");
+}
+.row4{
+    background-image: url("../images/roomspage/fourth.png");
+>>>>>>> upstream/Group1
 }
 
 .deluxe{
@@ -113,8 +131,8 @@ hr{
     height: 60vh;
     background-color:  rgba(0,0,0,0.7);
     position: absolute;
-    left:1px;
-    top: 1px;
+    left:0px;
+    top: 0px;
 }
 .deluxe-suite2{
     font-size: 36px;
@@ -123,7 +141,6 @@ hr{
     height: 30px;
     left: 40px;*/
     padding-top: 50px; 
-
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -176,15 +193,9 @@ hr{
 
 
 .standard{
-    
-    padding-top: 20px; 
-
-    
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
-    line-height: 30px;
-
 }
 .view-details{
     background: #DBA7C1;
