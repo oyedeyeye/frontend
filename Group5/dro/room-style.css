@@ -1,0 +1,436 @@
+@font-face{
+  font-family: 'Gotham';
+  src: url('./font/Gotham.eot');
+  src: url('./font/Gotham.eot?#iefix') format('embedded-opentype'),
+  url('./font/Gotham.woff') format('woff'),
+  url('./font/Gotham.woff2') format('woff2'),
+  url('./font/Gotham.ttf') format('truetype');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  font-size: 10px;
+  font-family: Gotham, Verdana, Geneva, Tahoma, sans-serif;
+}
+.container > img{
+  display: none;
+}
+.hero{
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('./img/room-hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  position: relative;
+}
+.hero .text{
+  font-family: 'Playfair Display';
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 8rem;
+  width: 100%;
+  text-align: center;
+}
+.hero .navigation nav .large{
+  display: none;
+}
+.hero .navigation nav .small{
+  display: flex;
+  z-index: 2;
+  padding: 0 2rem;
+}
+.hero .navigation nav .small .logo{
+  display: inline-block;
+  margin: 0 auto;
+  width: 80%;
+}
+.hero .navigation nav .small .logo img{
+  border: 6px solid #FFC204;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.hero .navigation nav .small .mobile-nav{
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 70%;
+  background-color: #8C1648;
+  height: 60vh;
+  z-index: 2;
+  transition: all .3s;
+}
+.hero .navigation nav .small .mobile-nav button{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.hero .navigation nav .small .mobile-nav button img{
+  width: 3rem;
+  height: 3rem;
+}
+.hero .navigation nav .small .mobile-nav.display{
+  display: block;
+}
+.hero .navigation nav .small .mobile-nav ul{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.hero .navigation nav .small .mobile-nav ul li{
+  width: 100%;
+  display: block;
+  margin: 1rem 0;
+}
+.hero .navigation nav .small .mobile-nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+}
+.hero .navigation nav .small .hamburger{
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 2.5rem;
+  border-radius: .5rem;
+}
+.hero .navigation nav .small .hamburger img{
+  width: 80%;
+  height: 80%;
+}
+.room{
+  padding: 4rem 0;
+  width: 100%;
+}
+.room .room-card{
+  width: 80%;
+  margin: 4rem auto 8rem;
+  padding: 2rem;
+  box-shadow: 0px 1rem 2.4rem rgba(0, 0, 0, 0.25);
+  transition: all .5s;
+}
+
+.room .room-card:last-child{
+  margin-bottom: 4rem;
+}
+.room .room-card .text{
+  padding: 3rem 0;
+  padding-right: 1rem;
+  height: 100%;
+}
+.room .room-card .text h1{
+  font-size: 4rem;
+  border-bottom: solid 2px #FFC204;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  color: #8C1648;
+  font-family: 'Playfair Display';
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.room .room-card .text p{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+.room .room-card .text button{
+  text-align: center;
+  font-family: Gotham;
+  margin-top: 2rem;
+  border: none;
+  padding: 1rem 2rem;
+  position: relative;
+  left: 50%;
+  background-color: #8C1648;
+  color: #fff;
+  transform: translateX(-50%);
+  transition: all .3s;
+}
+
+.room .room-card .image{
+  width: 100%;
+  position: relative;
+}
+.room .room-card .image img{
+  height: 98%;
+  width: 100%;
+}
+.room .room-card .image p{
+  background-color: #8C1648;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+  color: white;
+  position: absolute;
+  right: 4%;
+  top: 10%;
+}
+.footer{
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  background-color: #8C1648;
+}
+.footer .sitemap ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0 3rem;
+}
+.footer .sitemap ul li{
+  margin: 1rem 0;
+  width: 50%;
+}
+.footer .sitemap ul li:last-child{
+  width: 100%;
+}
+.footer .sitemap ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+footer .news{
+  margin-top: 2rem 0 4rem;
+}
+.footer .news h1{
+  text-align: center;
+  color: #FFC204;
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+}
+.footer .news input{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  margin-top: .5rem;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  width: 85%;
+  border-radius: .5rem;
+  max-width: 35rem;
+}
+.footer .news button{
+  display: block;
+  max-width: 35rem;
+  position: relative;
+  font-family: Gotham;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+  padding: .5rem 1rem;
+  width: 85%;
+  border: none;
+  border-radius: .5rem;
+  background-color: #FFC204;
+  color: #8C1648;
+  transition: all .3s;
+}
+
+.footer .news .footer-logo{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid #FFC204;
+  padding: 1rem;
+  display: inline-block;
+  margin-top: 2rem;
+}
+.footer .contact{
+  display: block;
+  width: 100%;
+  padding: 2rem 0 2rem;
+}
+.footer .contact h1{
+  font-family: 'Playfair Display';
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.footer .contact .text-line{
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  color: #fff;
+}
+.footer .contact .text-line img{
+  display: inline;
+  width: 3rem;
+  height: 100%;
+}
+.footer .contact .text-line em{
+  display: inline;
+  width: 90%;
+  font-style: normal;
+  font-size: 1.5rem;
+  position: relative;
+  top: 5px;
+  margin-left: 1rem;
+  
+}
+.footer > em{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3rem;
+  font-style: normal;
+  padding: 2rem 0 1rem 0;
+  
+}
+
+@media screen and (min-width:500px){
+  .footer .sitemap ul li,.footer .sitemap ul li:last-child{
+    width: 15%;
+  }
+}
+@media screen and (min-width:600px){
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "s c"
+    "n n"
+    "b b";
+  }
+  .footer .sitemap{
+    grid-area: s;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .footer .sitemap ul li,.footer .sitemap ul li:last-child{
+    width: 100%;
+  }
+  .footer .news{
+    grid-area: n;
+  }
+  .footer .contact{
+    grid-area: c;
+  }
+  .footer em{
+    grid-area: b;
+  }
+}
+
+@media screen and (min-width:800px){
+  .room .room-card .text button:hover{
+    color: #8C1648;
+    background-color: #FFC204;
+  }
+  .room .room-card:hover{
+    transform: translateY(1rem) scale(1.02);
+    box-shadow: 0px 2rem 3rem rgba(0, 0, 0, 0.25);
+  }
+  .footer .news button:hover{
+    color: #FFC204;
+    background-color: rgb(202, 32, 103);
+  }
+  .room .room-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto  ;
+    grid-template-areas: 
+    "t i";
+  }
+  .room .room-card .image{
+    grid-area: i;
+  }
+  .room .room-card .image img{
+    height: 40rem;
+    width: 100%;
+  }
+  .room .room-card .text{
+    padding: 2rem;
+  }
+  .room .room-card .text p{
+    grid-area: t;
+    line-height: 3rem;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto  auto;
+    grid-template-areas: 
+    "s n c"
+    "b b b";
+  }
+  .footer .sitemap{
+    grid-area: s;
+    margin-top: 2rem;
+  }
+  .footer .sitemap ul li,.footer .sitemap ul li:last-child{
+    width: 100%;
+  }
+  .footer .news{
+    grid-area: n;
+  }
+  .footer .contact{
+    grid-area: c;
+  }
+  .footer em{
+    grid-area: b;
+  }
+  .hero .navigation nav .small{
+    display: none;
+  }
+  
+.hero .navigation nav .large{
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem 0;
+}
+
+.hero .navigation nav .large .logo{
+  border: 6px solid #FFC204;
+  padding: 1rem;
+}
+.hero .navigation nav .large ul{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.hero .navigation nav .large ul li{
+  display: inline-block;
+  margin: 0 1.5rem;
+  font-size: 2rem;
+}
+.hero .navigation nav .large ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.hero .navigation nav .large ul li a:hover{
+  color: #FFC204;
+}
+}
+
+
