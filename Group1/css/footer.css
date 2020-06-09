@@ -1,0 +1,66 @@
+#footer{
+    background-color: #1F232B;
+    
+    
+}
+
+.arrange{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    
+}
+
+.logo-footer{
+    border-left: 2px solid white;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer-logo p{
+    position: absolute;
+    margin-top: 90px;
+}
+
+
+
+.footer-links a{
+   
+    color: white;
+}
+
+.footer-links a{
+    text-decoration: none;
+    
+}
+
+.footer-links a:hover{
+   
+    color: pink;
+}
+#footer input[type="text"] 
+{
+    background: transparent;
+    border-radius: 4px ;
+    color: white;
+    border: 1px solid #DBA7C1
+}
+
+#footer input[type="text"]::placeholder
+{
+   color: white; 
+   padding-left: 4px;
+}
+
+#footer button{
+    background-color: #DBA7C1;
+}
+
+.bold{
+    font-weight: bold;
+}

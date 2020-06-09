@@ -5,9 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/contact-us.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <script src="https://kit.fontawesome.com/59871cd568.js" crossorigin="anonymous"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+              
+        $(function(){
+                $('#footer').load('footer.html')
+        });
+
+    </script>
 
     <title>Contact Us</title>
 </head>
@@ -21,7 +35,7 @@
         <div class="overlay"></div>
         <div class="header-content">
             <h4 class="site-text">CONTACT PALM VIEW</h4>
-            <hr>
+            <hr >
             <p class="site-text">Let us help</p>
         </div>
     </div>
@@ -61,7 +75,9 @@
             tabindex="0"
             title="PALM VIEW located at Plot 1234 Demola Adetokunbo Street, Victoria Island, Lagos Nigeria"></iframe>
     </section>
-    <footer></footer>
+    <footer id="footer">
+        
+    </footer>
 </body>
 
 </html>
