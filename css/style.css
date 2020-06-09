@@ -68,7 +68,7 @@ body {
 }
 
 .card {
-        height: 200px;
+        min-height: 200px;
         background: #F7F7F7;
         border: 1px solid rgba(91, 14, 34, 0.5);
         border-radius: 0px;
