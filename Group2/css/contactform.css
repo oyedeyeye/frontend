@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-body {
-  padding: 20px;
-}
-
 .Contact-header {
   text-align: center;
   font-style: normal;
@@ -54,7 +50,8 @@ body {
 }
 
 .maps{
-  padding-top: 50px;
+  margin-top: 2rem;
+  width: 100vw;
 }
 iframe{
   height: 600px;
