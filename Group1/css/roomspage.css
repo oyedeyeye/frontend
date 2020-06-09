@@ -71,12 +71,7 @@ hr{
 }
 
 /* row1 */
-<<<<<<< HEAD
-.row1{
-    background-image: url(../images/roompageimages/first.png);
-=======
 .row{
->>>>>>> upstream/Group1
     background-size: cover;
     height: 60vh;
     margin-top: 100px;
@@ -89,33 +84,6 @@ hr{
     
 }
 .row2{
-<<<<<<< HEAD
-    background-image: url(../images/roompageimages/Rectangle\ 5.png);
-    background-size: cover;
-    height: 60vh;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    color: #ffffff;
-    font-family: poppins;
-}
-.row3{
-    background-image: url(../images/roompageimages/Rectangle\ 6.png);
-    background-size: cover;
-    height: 60vh;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    color: #ffffff;
-    font-family: poppins;
-}
-.row4{
-    background-image: url(../images/roompageimages/Rectangle\ 6\ \(1\).png);
-    background-size: cover;
-    height: 60vh;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    color: #ffffff;
-    font-family: poppins;
-=======
     background-image: url("../images/roomspage/second.png");
 }
 .row3{
@@ -123,7 +91,6 @@ hr{
 }
 .row4{
     background-image: url("../images/roomspage/fourth.png");
->>>>>>> upstream/Group1
 }
 
 .deluxe{
