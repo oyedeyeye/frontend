@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>Home Page</title>
 </head>
@@ -21,58 +25,8 @@
     <section class="hero">
         <header>
 
-            <section class="container px-0">
-                <nav class="navbar navbar-expand-lg  navbar-light">
-                    <a class="navbar-brand a-text flex" href="index.html">
-                        <img src="./Images/index-images/logo.png">
-                    </a>
-                    <button class="navbar-toggler" style="color: lemonchiffon !important;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                        <ul class="navbar-nav mr-auto">
-
-                        </ul>
-                        <ul class="navbar-nav  my-2 my-lg-0">
-
-                            <li class="nav-item mx-1 active">
-                                <a class="nav-link" href="#">THE HOTEL <span class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item mx-1 active">
-                                <a class="nav-link" href="#">ROOMS</a>
-                            </li>
-
-                            <li class="nav-item mx-1  active">
-                                <a class="nav-link" href="#">RESTAURANTS & BAR<span class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item mx-1 active">
-                                <a class="nav-link" href="#">EVENTS<span class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item mx-1 active">
-                                <a class="nav-link" href="#">FACILITIES<span class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item mx-1 active">
-                                <a class="nav-link" href="#">CONTACT US<span class="sr-only">(current)</span></a>
-                            </li>
-
-                            <li class="nav-item mx-1 phone active">
-                                <img src="./Images/index-images/phone-icon.png"><span class="mx-1" style="color: white;">.</span>
-                            </li>
-
-                            <li class="mx-1">
-                                <a href="#">
-                                    <button class="btn btn-outline-secondary btn-md my-2 my-sm-0" type="button"><span>RESERVE A ROOM</span></button>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+            <section class="container px-0" id="nav">
+                
             </section>
         </header>
 
@@ -83,15 +37,25 @@
                     <h1>PALM VIEW</h1>
                     <hr class="white-hr ">
                     <div>
-                    <p>THE TRUE ESSENCE OF BEAUTIFUL</p>
+                    
+                        <strong>
+                                <h4>THE TRUE ESSENCE OF BEAUTY</h4>
+                        </strong>
+                    
                     </div>
                 </div>
-                <div class="col-5 ">
+                <div class="col-4 ">
                     
                   </div>
           
-                <div class="col-md-3 spend ">
-                   <p>Spend an amazing time in <br>the amazing place in palms</p>
+                <div class="col-4 spend ">
+                    <strong>
+                            <h4 class="typewrite " data-period="2000" 
+                            data-type='[ "Spend an amazing time", " in an amazing place", "in palmsh", "WE ARE PALM VIEW!!" ]'>
+                                    
+                            <span class="wrap"></span>
+                    </strong>
+                   
                 </div>            
         </div>
     </section>
@@ -279,6 +243,77 @@
                 </div>
             </div>
     </section>
+
+    <footer id="footer">
+
+    </footer>
+
+    <script>
+            // This loads the nav and footer component
+            $(function(){
+                    $('#footer').load('footer.html');
+                    $('#nav').load('nav.html')
+            });
+
+            // this adds the typerwirtetr like animation
+    
+            var TxtType = function(el, toRotate, period) {
+                this.toRotate = toRotate;
+                this.el = el;
+                this.loopNum = 0;
+                this.period = parseInt(period, 10) || 2000;
+                this.txt = '';
+                this.tick();
+                this.isDeleting = false;
+            };
+            TxtType.prototype.tick = function() {
+                var i = this.loopNum % this.toRotate.length;
+                var fullTxt = this.toRotate[i];
+        
+                if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+                } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+                }
+        
+                this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+        
+                var that = this;
+                var delta = 200 - Math.random() * 100;
+        
+                if (this.isDeleting) { delta /= 2; }
+        
+                if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+                } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+                }
+        
+                setTimeout(function() {
+                that.tick();
+                }, delta);
+            };
+        
+            window.onload = function() {
+                var elements = document.getElementsByClassName('typewrite');
+                for (var i=0; i<elements.length; i++) {
+                    var toRotate = elements[i].getAttribute('data-type');
+                    var period = elements[i].getAttribute('data-period');
+                    if (toRotate) {
+                      new TxtType(elements[i], JSON.parse(toRotate), period);
+                    }
+                }
+                // INJECT CSS
+                var css = document.createElement("style");
+                css.type = "text/css";
+                css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+                document.body.appendChild(css);
+            };
+    
+        </script>
 </body>
 
 </html>

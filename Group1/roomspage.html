@@ -4,21 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0", initial-scale="1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="./css/roomspage.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+              
+        $(function(){
+                $('#footer').load('footer.html');
+                $('#nav').load('nav.html')
+        });
+        
+    </script>
+
+    <title>Our Rooms</title>
 </head>
-<body>
+<body id="roomspage-page">
     <div class="header">
-        <section id="header">
-            <div class="container header-div">
-            <h4 >THE ROOMS</h4>
-            <hr>
-            <p>Mordern luxury hotel rooms</p>
-            </div>
-            
-        </section>
+        <div class="bg-image"></div>
+        <div class="overlay">
+            <header>
+                <section class="container px-0" id="nav">
+                            
+                </section>
+            </header>
+        </div>
+        <div class="header-content">
+            <h1 >THE ROOMS</h1>
+            <hr >
+            <h4 >Mordern luxury hotel rooms</h4>
+        </div>
+        
     </div>
 
     <div class="container">
@@ -85,7 +105,10 @@
             </div>
         </section>
 
-       
     </div>
+
+    <footer id="footer">
+
+    </footer>
 </body>
 </html>
