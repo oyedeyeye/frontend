@@ -1,25 +1,28 @@
 /*Nav*/
 header {
-    padding: 30px;
+  padding: 30px;
 }
-                
-.navbar-dark .navbar-nav .active>.nav-link {
-    color: white;
-                    
+
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 4px;
+  }
 }
-                
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: white;
+}
+
 .phone {
-    position: relative;
-    top: 5px
+  position: relative;
+  top: 3px;
 }
 
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
-
 button:not(:disabled) {
-    margin-top: 1rem;
-    border-color: #DBA7C1;
-    color: white;
+  margin-top: 1rem;
+  border-color: #DBA7C1;
+  color: white;
 }
-
