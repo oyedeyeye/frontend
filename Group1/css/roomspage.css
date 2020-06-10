@@ -45,11 +45,6 @@
         top: 35%;
         width: 60%;
     }
-
-        .navbar-collapse{
-            background-color: rgba(0, 0, 0, 0.836);
-            z-index: 2;
-        }
         .bg-image{
             background-size: fill;
         }
