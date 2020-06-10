@@ -21,7 +21,7 @@
 <!-- Header -->
 <header class="showcase">
     <div class="showcase__inner">
-        <div class="d-flex flex-row justify-content-between align-items-center py-3 px-5">
+        <div class="d-flex flex-row flex-row2 justify-content-between align-items-center py-3 px-5">
             <ul class="social d-flex align-items-center m-0 p-0">
                 <li>
                     <a href="#" class="text-white" aria-label="facebook">
@@ -74,40 +74,40 @@
             </ul>
         </div>
 
-        <nav class="d-flex flex-row justify-content-between align-items-center py-3 px-5">
+        <nav class="d-flex flex-row flex-row3 justify-content-between align-items-center py-3 px-5">
             <div class="container">
                 <ul class="social d-flex align-items-center justify-content-center m-0 p-0">
-                    <li>
+                    <li class="links">
                         <a href="index.html" class="text-white">
                             <strong>HOME</strong>
                         </a>
                     </li>
-                    <li class="ml-5">
+                    <li class="ml-5 links">
                         <a href="#" class="text-white">
                             <strong>ABOUT US</strong>
                         </a>
                     </li>
-                    <li class="ml-5">
+                    <li class="ml-5 links">
                         <a href="rooms-and-price.html" class="text-white">
                             <strong>ROOMS</strong>
                         </a>
                     </li>
                     <li class="ml-5">
                         <a href="#" class="text-white">
-                            <img src="./img/Hotel_Logo.png" alt="">
+                            <img src="./img/Hotel_Logo.png" class="logo" alt="">
                         </a>
                     </li>
-                    <li class="ml-5">
+                    <li class="ml-5 links">
                         <a href="facilities.html" class="text-white">
                             <strong>SERVICES</strong>
                         </a>
                     </li>
-                    <li class="ml-5">
+                    <li class="ml-5 links">
                         <a href="#" class="text-white">
                             <strong>GALLERY</strong>
                         </a>
                     </li>
-                    <li class="ml-5">
+                    <li class="ml-5 links">
                         <a href="contact.html" class="text-white">
                             <strong>CONTACT</strong>
                         </a>
@@ -115,10 +115,27 @@
                 </ul>
 
             </div>
+            <div class="visible-menu">
+                <div class="hamburger">
+                    <div class="ham ham1"></div>
+                    <div class="ham ham2"></div>
+                    <div class="ham ham3"></div>
+                </div>
+            </div>
+
+            <div class="Mobile-menu">
+                <div class="menus">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </div>
         </nav>
         <section>
             <div id="myCarousel" class="carousel slide " data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner carousel-inner1">
                     <div class="carousel-item active">
                         <div class="container">
                             <div class="carousel-caption">
@@ -168,7 +185,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="image-wrapper">
-                    <img src="./img/Rectangle 1.png" alt="image-1" class="rounded" />
+                    <img src="./img/Rectangle 1.png" alt="image-1" class="rounded hotel-rooms" />
                     <div class="image-text">
                         <h6>The Best Hotel Rooms</h6>
                         <p>Overlooking the Lagos Skyline</p>
@@ -177,7 +194,7 @@
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="image-wrapper">
-                    <img src="./img/Rectangle 2.png" alt="image-1" class="rounded" />
+                    <img src="./img/Rectangle 2.png" alt="image-1" class="rounded hotel-rooms" />
                     <div class="image-text">
                         <h6>The Best Hotel Rooms</h6>
                         <p>Overlooking the Lagos Skyline</p>
@@ -323,7 +340,7 @@
                 </div>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-                <img src="./img/Rectangle 4.png" alt="Hotel" class="img-fluid acc-image" />
+                <img src="./img/Rectangle 4.png" alt="Hotel" class="img-fluid acc-image acc-image1" />
             </div>
         </div>
     </div>
@@ -382,8 +399,8 @@
             <div class="col-sm-12 col-lg-4 col-mb-4"></div>
             <div class="col-sm-12 col-lg-4 col-mb-4">
                 <div class="input-group mt-3">
-                    <input type="text" class="form-control news-form" placeholder="ENTER YOUR EMAAIL ADDRESS"
-                           aria-label="ENTER YOUR EMAAIL ADDRESS" aria-describedby="newsletter">
+                    <input type="text" class="form-control news-form" placeholder="ENTER YOUR EMAIL ADDRESS"
+                           aria-label="ENTER YOUR EMAIL ADDRESS" aria-describedby="newsletter">
                     <div class="input-group-append">
                         <button class="btn" style="background-color: #FFA800; color:
                   white;" type="button" id="newsletter">
@@ -406,7 +423,7 @@
     <div class="">
         <div class="row grid-columns">
             <div class="col-md-4 col-sm-6">
-                <div class="">
+                <div class="logo-footer">
                     <img src="./img/Hotel_Logo.png" alt="Hotel Logo" class="mb-3">
                     <a href="mailto:email@example.com">info@thecosmopolitanhotel.com</a>
                     <p>+234 (0) 703 845 3547</p>
@@ -452,7 +469,7 @@
         <p>Copyright &copy; The Cosmopolitan Hotel</p>
     </div>
     <div class="scrolltop">
-        <div class="scroll icon"><img src="./img/Page-Scroll-Up.png" alt="Scroll Up"></div>
+        <div class="scroll"><img src="./img/Page-Scroll-Up.png" alt="Scroll Up"></div>
     </div>
 </footer>
 <!-- End Footer -->
