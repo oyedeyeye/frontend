@@ -1,0 +1,259 @@
+/* navbar */
+body{
+    max-width:100%;
+}
+.navbar {
+    background-color:#707170;
+    
+}
+nav .navbar-brand{
+    border:4px solid #FFC204;
+    padding: 10px;
+    margin-top: 10px;
+}
+.view{
+    background-image: url(../imgs/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+     background-size:cover;
+     height:100vh; 
+}
+.view::before{
+    background-color: #1E1D1D;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+.nav-link{
+    display: unset;
+    list-style-type: none;
+    font-family: Gotham;
+    font-size: 24px;
+    color: white;
+    transition: ease 0.5s;
+}
+.nav-link:hover{
+    color: #FFC204;
+}
+.active{
+    color: #FFC204;
+}
+nav .nav-item{
+    list-style-type: none;
+}
+
+
+/* hamburger toggler */
+.navbar-dark .navbar-toggler {
+    border:transparent;
+    outline: transparent;
+
+}
+
+.view h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9vw;
+    color: white;
+    margin-left: 24%;
+    position: absolute;
+    margin-top: -300px;
+}
+
+.rooms{
+    margin-top: 150px;
+    overflow: hidden;
+    height: 320vh;
+}
+
+.rooms img:hover{
+    -webkit-transform: scale(1.05);
+    transition: ease-in-out 1s;
+}
+.rooms .holder{
+box-shadow: 0px 23px 44px rgba(0, 0, 0, 0.25);
+width:100%;
+height:400px;
+padding-top: 40px;
+padding-left: 25px;
+padding-right: 20px;
+margin-bottom: 120px;
+}
+
+.rooms .holder h1{
+    text-align: center;
+    display: inline-block;
+    color:#8C1648 ;
+    font-family: "Playfair Display";
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid rgb(255, 194, 4);
+    margin: 0px auto;
+}
+.rooms .holder p{
+    font-size: 19px;
+    font-family: gotham;
+    margin-top: 21px;
+}
+.rooms .holder button{
+    background-color: #8C1648;
+    border: none;
+    color: white;
+    margin-left: 30%;
+    padding: 10px 20px;
+    transition:ease-in 0.5s;
+}
+.rooms .holder button:hover{
+    color:#8C1648;
+    border:2px solid rgb(255, 194, 4);
+    background-color: white;
+}
+.rooms .holder .left{
+    float: left;
+}
+.rooms .holder .right{
+    float: right;
+}
+.rooms .holder .right:after{
+    content: ' ₦35,000';
+    position: absolute;
+    width: 19%;
+    height: 40px;
+    line-height: 0;
+    background-color: #8C1648;
+    margin-left: -20%;
+    margin-top: 50px;
+    padding: 20px 20px 20px 16px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+.rooms .holder .right-two:after{
+    content: ' ₦42,700';
+    position: absolute;
+    width: 19%;
+    height: 40px;
+    line-height: 0;
+    background-color: #8C1648;
+    margin-left: -20%;
+    margin-top: 50px;
+    padding: 20px 20px 20px 16px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+.rooms .holder .right-three:after{
+    content: ' ₦75,000';
+    position: absolute;
+    width: 19%;
+    height: 40px;
+    line-height: 0;
+    background-color: #8C1648;
+    margin-left: -20%;
+    margin-top: 50px;
+    padding: 20px 20px 20px 16px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+.rooms .holder .right-four:after{
+    content: ' ₦81,300';
+    position: absolute;
+    width: 19%;
+    height: 40px;
+    line-height: 0;
+    background-color: #8C1648;
+    margin-left: -20%;
+    margin-top: 50px;
+    padding: 20px 20px 20px 16px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+}
+footer{
+background-color: #8C1648;  
+width:100%;
+height: 340px; 
+
+}
+
+
+
+footer .first a{
+    margin-right: 40px;
+    color: white;
+    font-size: 20px;
+}
+footer .first a:hover{
+    color: rgb(255, 194, 4);
+}
+footer .first{
+    padding-top: 50px;
+}
+
+footer .second{
+    padding-top: 40px;
+    /* background-color: yellowgreen; */
+}
+footer .second h1{
+ font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 48px;
+color: #FFC204;
+text-align: center;
+}
+
+footer .second input{
+    width:80%;
+    margin-left: 40px;
+}
+footer .second button{
+    background-color: #FFC204;
+    border: none;
+    color: white;
+    margin-left: 35%;
+    padding: 5px 20px;
+    transition:ease-in 0.5s;
+    margin-bottom: 11px;
+    
+}
+
+footer .second .holder{
+    border: 2px solid #FFC204;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 140px;
+    padding: 10px;
+}
+footer .third{
+    /* background-color: aquamarine; */
+    padding-top: 40px;
+    padding-left: 60px;
+}
+footer .third h1{
+    font-size: 30px;
+    color:white;
+    line-height: 48px;
+}
+
+footer .third p{
+    color: white;
+}
+footer .third span{
+    color:#FFC204 ;
+}
+footer .lasts{
+    font-family: gotham;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+
+    
+
