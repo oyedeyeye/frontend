@@ -1,0 +1,251 @@
+#roomspage-page{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    height: 600px;
+    width:100%;
+    position: relative;
+    height: 100vh;
+}
+
+.bg-image, .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.bg-image{
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/Rectangle1.png") center;
+    background-size: cover;
+}
+
+.header-content{
+    position: relative;
+    z-index: 3;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    top: 47%;
+    width: 33%;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-size: 24px;
+    letter-spacing: 0.2rem;
+}
+
+@media(max-width: 850px){
+    .header-content{
+        font-size: 16px;
+        top: 35%;
+        width: 60%;
+    }
+        .bg-image{
+            background-size: fill;
+        }
+        
+        .header{
+            height: 500px;
+        }
+}
+
+.rooms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width:576px){
+    #header{
+        height:70vh !important;
+    }
+    .header-div,h4{
+        font-size: 15px;
+        
+    }
+    hr{
+        width: 270px !important;
+    }
+
+    .bg-image{
+        background-size: fill;
+    }
+
+    .header{
+        height: 250px;
+    }
+}
+
+
+
+
+hr{
+    width:500px !important;
+    border:1px solid #ffffff !important;
+    font-weight: 600px;
+    
+}
+
+/* row1 */
+.row1, .row2, .row3, .row4 {
+    background-size: cover;
+    height: 60vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: poppins;
+}
+.row1{
+    background-image: url("../images//roomspage/first.png");
+    
+}
+.row2{
+    background-image: url("../images/roomspage/second.png");
+}
+.row3{
+    background-image: url("../images/roomspage/third.png");
+}
+.row4{
+    background-image: url("../images/roomspage/fourth.png");
+}
+
+.deluxe{
+    /* width: -100px !important; */
+    height: 60vh;
+    background-color:  rgba(0,0,0,0.7);
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+.deluxe-suite{
+    font-size: 36px;
+    /* position: relative;
+    width: 240px;
+    height: 30px;
+    left: 40px;*/
+    padding-top: 30px; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+}
+
+
+.standard{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin: .5rem 0px;
+}
+.view-details{
+    background: #DBA7C1;
+    border-radius: 4px;
+    border: none;
+    line-height: normal;
+    position: relative;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 14px;
+}
+
+.night{
+    font-weight: 500;
+    font-size: 16px; 
+    border-bottom: 2px solid #DBA7C1;
+    margin-bottom: 0px;
+    padding-bottom: .3em;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    vertical-align: baseline;
+    position: absolute;
+    top: 85%;
+    width: 90%;
+}
+.line{
+    border: 1px solid #DBA7C1 !important;
+    width: 80px !important;
+    height: 0px;
+    position: relative;
+    top:-30px !important;
+    left:100px;
+}
+
+
+@media screen and (max-width:768px){
+    .details{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    vertical-align: baseline;
+    position: absolute;
+    top: 45%;
+    width: 90%;
+}
+.view-details{
+    background: #DBA7C1;
+    border-radius: 4px;
+    border: none;
+    line-height: normal;
+    position: relative;
+    width: 6rem;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.night{
+    font-weight: 500;
+    font-size: 16px; 
+    border-top: 2px solid #DBA7C1;
+    border-bottom: none;
+    margin-bottom: 0px;
+    padding-top: .3em;
+}
+
+    .row{
+    background-size: cover;
+    height: 60vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: poppins;
+    width: 300px ;
+        height: 27vh;
+        position: relative;
+        justify-content: center;
+        left:30px;
+}
+    body{
+        overflow-x: hidden;
+    }
+    .standard{
+        display: none;
+    }
+  
+    .deluxe{
+        height: 27vh;
+        width:140px !important;
+        position: relative;
+        left:-80px;
+        
+    }
+    .deluxe-suite{
+        font-size: 16px;
+        font-weight:bold ;
+        letter-spacing: normal;
+        line-height: normal;
+        position: relative;
+        top: -15px;
+        /* line-height: 7px; */
+    }
+
+}

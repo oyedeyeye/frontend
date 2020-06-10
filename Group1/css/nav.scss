@@ -1,0 +1,29 @@
+/*Nav*/
+header {
+    padding: 30px;
+
+    @media screen and (max-width: 1000px) {
+        padding: 4px;
+    }
+}
+                
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: white;
+                    
+}
+                
+.phone {
+    position: relative;
+    top: 3px
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+
+button:not(:disabled) {
+    margin-top: 1rem;
+    border-color: #DBA7C1;
+    color: white;
+}
+

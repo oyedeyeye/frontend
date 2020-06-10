@@ -1,0 +1,95 @@
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/facilites.png");
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/facilites.png"); */
+    min-height: 100vh;
+   
+}
+body{
+    background-color:  #E5E5E5;
+}
+
+.facility-head{
+    color: white;
+    margin-top: 200px;
+}
+
+hr{
+    
+    background-color: white;
+    
+}
+
+.btn{
+    margin-top: 20%;
+}
+
+.navbar{
+    font-weight: bold;
+    
+}
+
+.first{
+    background: url("../images/facility1.png");
+    /* background: linear-gradient(rgba(34, 29, 31, 0.9), rgba(34, 29, 31, 0.9)), url("../images/facility1.png"); */
+    height: 388px;
+    margin-top: 2%;
+}
+.second{
+    background: url("../images/facility2.png");
+    height: 388px;
+    margin-top: 2%;
+}
+.third{
+    background: url("../images/facility3.png");
+    height: 388px;
+    margin-top: 2%;
+}
+.fourth{
+    background: url("../images/facility4.png");
+    height: 388px;
+    margin-top: 2%
+}
+.firth{
+    background: url("../images/facility5.png");
+    height: 388px;
+    margin-top: 2%
+}
+
+
+
+.caption1{
+    position: absolute;
+    top: 335px;
+    background: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+}
+
+.caption1 h6{
+    padding-left: 10px;
+}
+
+.caption2, .caption3, .caption4, .caption5{
+    position: absolute;
+    top: 335px;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+
+.first button{
+    position: absolute;
+    background-color: #DBA7C1;
+    margin-top: 20%;
+    margin:20%;
+    margin-left:40%;
+    
+}
