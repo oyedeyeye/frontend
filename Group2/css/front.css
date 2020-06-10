@@ -120,8 +120,7 @@ p {
 }
 
 .comments {
-    background-image: url(./assets/comments.svg);
-    padding: 30px 30px 100px 30px;
+    padding: 30px 30px 30px 30px;
     background-color: #fff;
     border-radius: 1.3vmin;
     border: 1px solid rgba(91, 14, 34, 0.85);
