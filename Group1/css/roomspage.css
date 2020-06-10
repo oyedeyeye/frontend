@@ -1,4 +1,4 @@
-#contact-page{
+#roomspage-page{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -19,15 +19,12 @@
 }
 
 .bg-image{
-    background: url("../images/roompageimages/Rectangle\ 1\ \(1\).png") center;
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../images/Rectangle1.png") center;
     background-size: cover;
-    z-index: 1;
 }
 
-.overlay{
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 2;
-}
+
 
 .header-content{
     position: relative;
@@ -71,7 +68,7 @@ hr{
 }
 
 /* row1 */
-.row{
+.row1, .row2, .row3, .row4 {
     background-size: cover;
     height: 60vh;
     margin-top: 100px;

@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="./css/contact-us.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/nav.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -33,7 +34,8 @@
     <script>
               
         $(function(){
-                $('#footer').load('footer.html')
+                $('#footer').load('footer.html');
+                $('#nav').load('nav.html')
         });
 
     </script>
@@ -48,55 +50,14 @@
         <div class="bg-image"></div>
         <div class="overlay">
             <header>
-                <section class="container px-0">
-                    <nav class="navbar navbar-expand-lg  navbar-dark">
-                        <a class="navbar-brand a-text flex" href="index.html">
-                            <img src="./Images/logo.png">
-                        </a>
-                        <button class="navbar-toggler" style="color: lemonchiffon !important;" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                            </ul>
-                            <ul class="navbar-nav  my-2 my-lg-0">
-                                <li class="nav-item mx-1 active">
-                                    <a class="nav-link" href="#">THE HOTEL <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-1 active">
-                                    <a class="nav-link" href="#">ROOMS</a>
-                                </li>
-                                <li class="nav-item mx-1  active">
-                                    <a class="nav-link" href="#">RESTAURANTS & BAR<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-1 active">
-                                    <a class="nav-link" href="#">EVENTS<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-1 active">
-                                    <a class="nav-link" href="#">FACILITIES<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-1 active">
-                                    <a class="nav-link" href="#">CONTACT US<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item mx-1 phone active">
-                                    <img src="./Images/phone-icon.png"><span class="mx-1" style="color: white;">.</span>
-                                </li>
-                                <li class="mx-1">
-                                    <a href="#">
-                                        <button class="btn btn-outline-secondary btn-md my-2 my-sm-0" type="button"><span>RESERVE A
-                                                ROOM</span></button>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                <section class="container px-0" id="nav">
+                    
                 </section>
             </header>
         </div>
         <div class="header-content">
             <h4 class="site-text">CONTACT PALM VIEW</h4>
+            
             <p class="site-text">Let us help</p>
         </div>
     </div>
@@ -137,71 +98,7 @@
             title="PALM VIEW located at Plot 1234 Demola Adetokunbo Street, Victoria Island, Lagos Nigeria"></iframe>
     </section>
     <footer id="footer">
-        <div class="container text-light" id="footer-wrapper">
-            <div class="row arrange">
-                <div class="mt-2">
-                    <p>NEWS AND OFFERS</p>
-                </div>
-                <div class="subscribe mt-2">
-                    <form action="">
-                        <span><input type="text" class="border border-light mr-2" placeholder="Your email address"></span>
-                        <span> <button type="button" class="btn  btn-sm">SUBSCRIBE</button> </span>
-                    </form>
-                </div>
-                <div class="mt-2">
-                    <p>KEEP IN TOUCH</p>
-                </div>
-                <div class="mt-2">
-                    <i class="fa fa-facebook pr-1" aria-hidden="true"></i>
-                    <i class="fa fa-instagram pr-1" aria-hidden="true"></i>
-                    <i class="fa fa-twitter pr-1" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin pr-1" aria-hidden="true"></i>
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mt-3">
-                    <p>
-                        Plot 1234 Demola Adetokunbo Street, PMB 12345,<br />
-                        Victoria Island, Lagos Nigeria<br />
-                        +234 806 508 6025,+234 803 123 2345<br />
-                        reservation@palmview.com,&nbsp; info@palmview.com
-                    </p>
-                </div>
-                <div class="col-md-3  footer-links mt-3">
-                    <p class="bold">PAGE SITE</p>
-    
-                    <a href="">Terms & Conditions</a><br />
-                    <a href="">Gallery</a><br />
-                    <a href="">Accomodation</a><br />
-                    <a href="">Dining</a>
-    
-                </div>
-                <div class="col-md-3 footer-links mt-3">
-                    <p class="bold">HOT LINKS</p>
-                    <a href="">About</a><br />
-                    <a href="">Our Vision & Mission</a><br />
-                    <a href=""> Our Values</a><br />
-                    <a href="">Contuct Us</a>
-    
-    
-                </div>
-                <div class="col-md-2 logo-footer">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="Palm View">
-                        <p>A Big Joe Company</p>
-                    </div>
-    
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-12 ">
-                    <p class="mb-3">Copyright &copy; 2020 Palm View</p>
-                </div>
-    
-            </div>
-    
-        </div>
+        
     </footer>
 </body>
 
