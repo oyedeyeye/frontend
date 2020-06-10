@@ -3,16 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/facilities.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -26,17 +42,17 @@
         <header>
 
             <section class="container px-0" id="nav">
-                
+
             </section>
         </header>
         <div class="container facility-head">
             <div class="col-md-6 mx-auto text-center">
                 <h3>FACILITIES & AMENITIES</h3>
-                <hr >
+                <hr>
                 <h4>Relax and pampered</h4>
             </div>
         </div>
-    
+
     </section>
 
     <section>
@@ -45,8 +61,8 @@
                 <div class="row ">
                     <div class="col first">
                         <div class="btn">
-                            <span> <button type="button" class="btn">View More</button> 
-                                
+                            <span> <button type="button" class="btn">View More</button>
+                                <p class="caption2">Gymnasium and steam room</p>
                         </div>
                         <!-- <div class="caption1">
                             <h6 class="">Gymnasium and steam room</h6>
@@ -55,22 +71,22 @@
                 </div>
                 <div class="row ">
                     <div class="col second">
-                        <!-- <p class="caption2">Swimming pool</p> -->
+                        <p class="caption2">Swimming pool</p>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col third">
-                        <!-- <p class="caption2">Salon</p> -->
+                        <p class="caption2">Salon</p>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col fourth">
-                        <!-- <p class="caption3">Bar and Restaurant</p> -->
+                        <p class="caption3">Bar and Restaurant</p>
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col firth">
-                        <!-- <p class="caption4">Secure Parking lot</p> -->
+                    <div class="col fifth">
+                        <p class="caption4">Secure Parking lot</p>
 
                     </div>
                 </div>
@@ -78,80 +94,80 @@
         </main>
     </section>
 
-    
 
-    
+
+
 
     <footer id="footer">
 
     </footer>
 
     <script>
-            // This loads the nav and footer component
-            $(function(){
-                    $('#footer').load('footer.html');
-                    $('#nav').load('nav.html')
-            });
+        // This loads the nav and footer component
+        $(function () {
+            $('#footer').load('footer.html');
+            $('#nav').load('nav.html')
+        });
 
-            // this adds the typerwirtetr like animation
-    
-            var TxtType = function(el, toRotate, period) {
-                this.toRotate = toRotate;
-                this.el = el;
-                this.loopNum = 0;
-                this.period = parseInt(period, 10) || 2000;
-                this.txt = '';
-                this.tick();
-                this.isDeleting = false;
-            };
-            TxtType.prototype.tick = function() {
-                var i = this.loopNum % this.toRotate.length;
-                var fullTxt = this.toRotate[i];
-        
-                if (this.isDeleting) {
+        // this adds the typerwirtetr like animation
+
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
                 this.txt = fullTxt.substring(0, this.txt.length - 1);
-                } else {
+            } else {
                 this.txt = fullTxt.substring(0, this.txt.length + 1);
-                }
-        
-                this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-        
-                var that = this;
-                var delta = 200 - Math.random() * 100;
-        
-                if (this.isDeleting) { delta /= 2; }
-        
-                if (!this.isDeleting && this.txt === fullTxt) {
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
                 delta = this.period;
                 this.isDeleting = true;
-                } else if (this.isDeleting && this.txt === '') {
+            } else if (this.isDeleting && this.txt === '') {
                 this.isDeleting = false;
                 this.loopNum++;
                 delta = 500;
-                }
-        
-                setTimeout(function() {
+            }
+
+            setTimeout(function () {
                 that.tick();
-                }, delta);
-            };
-        
-            window.onload = function() {
-                var elements = document.getElementsByClassName('typewrite');
-                for (var i=0; i<elements.length; i++) {
-                    var toRotate = elements[i].getAttribute('data-type');
-                    var period = elements[i].getAttribute('data-period');
-                    if (toRotate) {
-                      new TxtType(elements[i], JSON.parse(toRotate), period);
-                    }
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
                 }
-                // INJECT CSS
-                var css = document.createElement("style");
-                css.type = "text/css";
-                css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-                document.body.appendChild(css);
-            };
-    
-        </script>
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+
+    </script>
 </body>
 
 </html>
