@@ -1,95 +1,121 @@
-#header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/facilites.png");
-    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/facilites.png"); */
-    min-height: 100vh;
-   
-}
-body{
-    background-color:  #E5E5E5;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+html {
+    font-family: 'poppins';
 }
 
-.facility-head{
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/facilities/facilities-hero.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+.facilities-hero {
+    margin-top: 150px;
     color: white;
-    margin-top: 200px;
 }
 
-hr{
-    
-    background-color: white;
-    
+.hero-text {
+    margin: auto;
 }
 
-.btn{
-    margin-top: 20%;
+.hero-text h4 {
+    text-align: center;
+    margin-bottom: 30px
 }
 
-.navbar{
-    font-weight: bold;
-    
+.hero-text p {
+    text-align: center;
+    font-size: 18px;
 }
 
-.first{
-    background: url("../images/facility1.png");
-    /* background: linear-gradient(rgba(34, 29, 31, 0.9), rgba(34, 29, 31, 0.9)), url("../images/facility1.png"); */
-    height: 388px;
-    margin-top: 2%;
-}
-.second{
-    background: url("../images/facility2.png");
-    height: 388px;
-    margin-top: 2%;
-}
-.third{
-    background: url("../images/facility3.png");
-    height: 388px;
-    margin-top: 2%;
-}
-.fourth{
-    background: url("../images/facility4.png");
-    height: 388px;
-    margin-top: 2%
-}
-.firth{
-    background: url("../images/facility5.png");
-    height: 388px;
-    margin-top: 2%
+hr {
+    border-top: 1px solid rgb(187, 180, 180);
 }
 
+.palm-view-hero h1 {
+    font-weight: 500px;
+    line-height: 40px;
+    font-size: 65px;
+    color: #FFFFFF;
+}
 
+.facilities1 {
+    background-image: linear-gradient(to bottom, rgba(34, 29, 31, 0.9), rgba(34, 29, 31, 0.9)), url("../images/facilities/facilities1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    backdrop-filter: blur(4px);
+}
 
-.caption1{
+.facilities-div {
+    margin-bottom: 40px
+}
+
+.facilities-btn {
+    background: #DBA7C1;
+    color: black !important;
     position: absolute;
-    top: 335px;
-    background: rgba(255, 255, 255, 0.8);
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    color: black;
-    
+    top: 130px
 }
 
-.caption1 h6{
-    padding-left: 10px;
+.card-footer .text-muted {
+    background-color: red;
 }
 
-.caption2, .caption3, .caption4, .caption5{
-    position: absolute;
-    top: 335px;
+.card img {
+    height: 60vh
+}
+
+.card-body {
+    height: 7vh;
     background: rgba(0, 0, 0, 0.7);
-    height: 50px;
-    width: 100%;
-    display: flex;
-    align-items: center;
     color: white;
-    padding-left: 10px;
+    opacity: 1;
 }
 
-.first button{
-    position: absolute;
-    background-color: #DBA7C1;
-    margin-top: 20%;
-    margin:20%;
-    margin-left:40%;
-    
+.card-body p {
+    position: relative;
+    font-weight: bold;
+    bottom: 10px
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 576px) {
+    .facilities-btn {
+        position: relative;
+        left: 150px;
+        bottom: 100px
+    }
+    h4 {
+        font-size: 18px
+    }
+    .card img {
+        height: 40vh
+    }
+    .facilities1 {
+        height: 40vh
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .facilities-btn {
+        position: relative;
+        left: 150px;
+        bottom: 100px
+    }
+    h4 {
+        font-size: 18px
+    }
+    .card img {
+        height: 40vh
+    }
+    .facilities1 {
+        height: 40vh
+    }
 }

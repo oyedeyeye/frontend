@@ -7,25 +7,24 @@ The main frontend repository. This is the main entry point to the frontend libra
 
 ## Getting Started
 
-The Frontend team has been sectioned into subgroups, with each subgroup expected to work on a design. As this is would be a group project, i suggest we check the guide on [GitHub projects](). Each subgroup's lead are:
+The Frontend team has been sectioned into subgroups, with each subgroup expected to work on a design. Please check the guide on [GitHub projects](https://github.com/hng-teamfury-org/help). Each subgroup's lead are:
 
-- slack - @chimdia | github - @chimidiya1
-- slack - @dpkreativ | github - @dpkreativ
-- slack - @Gordie | github - @Xodtuza
-- slack - @cj1996 | github - @chiaka1996
-- slack - @victorAnumudu | github - @victorAnumudu
+- Group 1 - @chimdia | github - @chimidiya1
+- Group 3 - @dpkreativ | github - @dpkreativ
+- Group 2 - @Gordie | github - @Xodtuza
+- Group 5 - @cj1996 | github - @chiaka1996
+- Group 4 - @victorAnumudu | github - @victorAnumudu
 
-If you don't have a team already, i suggest you reach out any of them to show your interest in becoming a member of that team. The team leads are to coordinate the activities of the group, so as to come out with a good implementation of the designs.they are to ensure:
+All team leads must update their progress on their README on their different branches.
 
-- consistency of thier work with the design template
-- mobile readiness
-- cross browser compatibility
+Please reach out to any of the team leads and indicate interest to join a team. The team leads are to coordinate the activities of the group, in order to produce good implementation of the designs, they are to ensure:
+
+- Consistency in their work with the design template
+- Mobile readiness
+- Cross Browser Compatibility
 - Ease of Customizablility
-- use of high quality assets
-
-
-## Contributing
-### Guide on work with the team's Repo
+- Use of high quality assets
 
 ## Code of Conduct
+
 Please read HNG Team Fury's [Code of Conduct](https://github.com/hng-teamfury-org/executive/blob/master/CODE_OF_CONDUCT.md). It is important that you follow the code to ensure that everyone remains professional and fair.
