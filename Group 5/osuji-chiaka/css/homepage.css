@@ -1,0 +1,683 @@
+.container-body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-image{
+    background-image : url("../images/background-img.jpg");
+    background-size :  cover;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+     margin-left : 45%; 
+    margin-top : 6%;
+  }
+  
+  .dropdown span{
+    color: #FFC300;
+    font-size :25px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    padding: 12px 16px;
+    color : white;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+nav{
+    color : white;
+    display : flex;
+}
+
+.list{
+    display:none;
+}
+
+.logo{
+    border : 3px solid #FFC300;
+    font-size : 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 6%;
+    font-weight : bold;
+    margin-left : 5%;
+    color : white
+}
+
+.introduction{
+    color : white;
+    margin-top : 8%;
+    margin-left : 10%;
+    font-size : 35px;
+    font-weight : bolder;  
+}
+
+#experience2{
+    font-size : 30px;
+    margin-left : 15%;
+}
+
+#intro-buttons {
+    margin-top : 9%;
+    margin-left : 2%;
+   
+}
+
+.buttonsA {
+    font-size : 12px;
+    border-radius : 10px;
+    margin-right : 1%;
+    height : 45px;
+    background-color : transparent;
+    border : 3px solid white;
+    color : white;
+}
+
+#intro-buttons button select {
+    background-color : transparent;
+    border: none;
+    font-size : 17px;
+    color : white;
+}
+
+#intro-buttons button select :active {
+    background-color : transparent;
+    border: none;
+    font-size : 17px;
+    color : white;
+}
+
+.buttonsA select option {
+    color : black;
+}
+
+#book{
+    margin-top : 2%;
+    margin-left : 35%;
+    width : 120px;
+    height : 50px;
+    background-color :  #FFC300;
+    border-radius : 20%;
+    padding: 5px;
+    color : white;
+    font-size : 17px;
+    font-weight : bold;
+    border: none;
+}
+
+#arrow-down{
+    margin-left : 45%;
+    margin-top : 1%;
+}
+
+#arrow-down i{
+    font-size : 50px;
+    color :  #FFC300;
+    font-weight : bolder;
+
+}
+
+.about-us{
+    margin-top : 50%;
+    margin-left : 1%;
+    position : relative;
+    margin-bottom : 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-note{
+    background-color: #86032D;
+    position : absolute;
+    opacity: 0.8;
+    top : -22%;
+    left : 38%;
+    color : white;
+    width : 272x;
+    height : 400px;
+
+}
+
+.about-note h1{
+    margin-left: 30%;
+    text-decoration : underline #FFC300;
+    font-weight: bolder;
+    margin-top : 5%;
+    font-size: 17px;
+}
+
+.rectangle7{
+    width: 280px;
+    height : 280px;
+
+}
+
+.about-paragraph{
+    margin-left : 8%;
+    margin-right : 8%;
+    margin-bottom : 4%;
+    font-size : 14px;
+    margin-top : 5%;
+}
+
+.choose-us{
+    margin-top : 70%;
+    position : relative;
+    margin-bottom : 5%;
+
+}
+
+.rectangle9{
+width:100%;
+height:280px;
+}
+
+.choose-note{
+background-color: #86032D;
+position : absolute;
+opacity: 0.8;
+top : -22%;
+left : 10%;
+color : white;
+width : 250px;
+height : 400px;
+
+}
+
+.choose-note h1{
+margin-left: 26%;
+text-decoration : underline #FFC300;
+margin-top : 9%;
+font-size : 20px;
+}
+
+.about-paragraph-choose{
+margin-top: 13%;
+margin-left : 10%;
+margin-right : 0;
+margin-bottom : 2%;
+font-size : 16px;
+}
+
+
+.about-paragraph-choose ul li {
+margin-bottom : 4%;
+
+}
+
+.rooms{
+margin-left : 1%;
+margin-top : 50%;
+margin-right : 10%;
+}
+
+.rooms h1 {
+margin-left : 30%;
+color : #86032D;
+text-decoration: underline  #FFC300;
+font-weight : bold;
+margin-bottom: 3%;
+}
+
+.col-sm-4 span{
+font-size : 28px;
+color : #86032D;
+
+}
+.positioning{
+position : relative; 
+margin-top : 2%;
+margin-bottom : 3%;
+}
+
+.arrow-pointer{
+position : absolute;
+align-items: center;
+height: 45px;
+width: 45px;
+border-radius: 50%;
+font-size : 25px;
+top : 5%;
+left : 87%;
+border-radius : 40%;
+color : #120F4C;
+border: 3px solid #FFC300;
+
+}
+
+.arrow-pointer i {
+margin-left : 25%;
+}
+
+.testimonial{
+margin-left : 1%;
+margin-top : 15%;
+margin-right : 1%;
+}
+
+.testimonial h1{
+margin-left : 15%;
+color : #86032D;
+text-decoration: underline  #FFC300;
+font-weight : bold;
+font-family : 'Times New Roman', Times, serif;
+margin-bottom: 3%;
+}
+
+.testimonial div {
+position : relative;
+margin-left : 1%;
+font-size : 13px;
+}
+
+.testimonial-name{
+position: absolute;
+left : 70%;
+font-size : 18px;
+color : #86032D;
+}
+
+.testimonial-city{
+position : absolute;
+left : 75%;
+margin-top: 4%;
+font-size : 14px;
+color : rgb(13, 107, 231);
+}
+
+.foot-body{
+background-color: rgb(121, 24, 54);
+margin-top : 19%;
+color : white;
+padding-top: 3%;
+}
+
+.col-sm-2 ul{
+list-style : none;
+}
+.col-sm-2 ul li{
+margin-top : 2%;
+}
+
+.newsletter{
+margin-left : 10%;
+color : #FFC300;
+font-size : 20px;
+}
+
+.footer-logo{
+border : 6px solid #FFC300;
+padding: 2px;
+font-size : 35px;
+font-family: 'Courier New', Courier, monospace;
+font-weight : bold;
+margin-left : 5%;
+margin-bottom : 4%;
+color : white;
+}
+
+.rights{
+margin-top : 5%;
+margin-left : 2%;
+font-size : 13px;
+}
+#foot-logo-div{
+    margin-top: 10%; 
+     margin-left:6%"
+}
+
+
+
+.col-sm-3 div i {
+color : #FFC300;
+margin-right: 4%;
+}
+
+
+@media only screen and (min-width: 768px) {
+.container-body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.rectangle7{
+    width: 650px;
+    height : 280px;
+
+}
+.nav-image{
+    background-image : url("../images/background-img.jpg");
+    background-size : cover;
+    background-color: black;
+    width : inherit;
+    height : 100%;
+}
+
+nav{
+    color : white;
+    display : flex;
+}
+
+.dropdown{
+    display:none;
+}
+
+.logo{
+    border : 6px solid #FFC300;
+    padding : 2px;
+    font-size : 35px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3%;
+    font-weight : bold;
+    margin-left : 5%;
+    color : white
+}
+
+.list {
+    display : block;
+    margin-left : 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top : 5%;
+
+}
+
+.nav-list{
+    margin-right : 15px;
+    margin-left : 5px;
+    font-size : 17px;
+    color: white;
+    
+}
+
+.nav-list:hover{
+    color : #FFC300;
+}
+
+.introduction{
+    color : white;
+    margin-top : 8%;
+    margin-left : 25%;
+    font-size : 90px;
+    font-weight : bolder;  
+}
+
+#experience2{
+    font-size : 60px;
+    margin-left : 12%;
+}
+
+#intro-buttons {
+    margin-top : 9%;
+    margin-left : 23%;
+   
+}
+
+.buttonsA {
+    font-size : 17px;
+    border-radius : 10px;
+    margin-right : 5%;
+    height : 45px;
+    background-color : transparent;
+    border : 3px solid white;
+    color : white;
+}
+
+#intro-buttons button select {
+    background-color : transparent;
+    border: none;
+    font-size : 17px;
+    color : white;
+}
+
+#intro-buttons button select :active {
+    background-color : transparent;
+    border: none;
+    font-size : 17px;
+    color : white;
+}
+
+.buttonsA select option {
+    color : black;
+}
+
+
+#book{
+    width : 120px;
+    margin-left: 0;
+    height : 50px;
+    background-color :  #FFC300;
+    border-radius : 30%;
+    padding: 5px;
+    color : white;
+    font-size : 17px;
+    font-weight : bold;
+    border: none;
+}
+
+#arrow-down{
+    margin-left : 50%;
+    margin-top : 1%;
+}
+
+#arrow-down i{
+    font-size : 40px;
+    color :  #FFC300;
+    font-weight : bolder;
+
+}
+
+.about-us{
+    margin-top : 15%;
+    margin-left : 10%;
+    position : relative;
+    margin-bottom : 10%;
+    font-family: time
+}
+
+.about-note{
+    background-color: #86032D;
+    position : absolute;
+    opacity: 0.8;
+    top : -22%;
+    left : 42%;
+    color : white;
+    width : 500px;
+    height : 400px;
+
+}
+
+.about-note h1{
+    margin-left: 30%;
+    text-decoration : underline #FFC300;
+    font-weight: bolder;
+    margin-top : 5%;
+}
+
+.about-paragraph{
+    margin-left : 15%;
+    margin-right : 15%;
+    margin-bottom : 2%;
+    font-size : 14px;
+    margin-top : 5%;
+}
+
+.choose-us{
+        margin-top : 22%;
+        position : relative;
+        margin-bottom : 5%;
+    
+}
+
+.rectangle9{
+    width:100%;
+    height:280px;
+}
+
+.choose-note{
+    background-color: #86032D;
+    position : absolute;
+    opacity: 0.8;
+    top : -22%;
+    left : 10%;
+    color : white;
+    width : 500px;
+    height : 400px;
+
+}
+
+.choose-note h1{
+    margin-left: 26%;
+    text-decoration : underline #FFC300;
+    margin-top : 9%;
+}
+
+.about-paragraph-choose{
+    margin-top: 4%;
+    margin-left : 15%;
+    margin-right : 15%;
+    margin-bottom : 2%;
+    font-size : 16px;
+}
+
+
+.about-paragraph-choose ul li {
+    margin-bottom : 4%;
+
+}
+
+.rooms{
+    margin-left : 10%;
+    margin-top : 20%;
+    margin-right : 10%;
+}
+
+.rooms h1 {
+    margin-left : 35%;
+    color : #86032D;
+    text-decoration: underline  #FFC300;
+    font-weight : bold;
+    margin-bottom: 3%;
+}
+
+.col-sm-4 span{
+    font-size : 28px;
+    color : #86032D;
+
+}
+.positioning{
+    position : relative; 
+    margin-top : 2%;
+    margin-bottom : 0;
+}
+
+.arrow-pointer{
+    position : absolute;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size : 25px;
+    top : 5%;
+    left : 85%;
+    border-radius : 40%;
+    color : #120F4C;
+    border: 3px solid #FFC300;
+
+}
+
+.arrow-pointer i {
+    margin-left : 25%;
+}
+
+.testimonial{
+    margin-left : 15%;
+    margin-top : 15%;
+    margin-right : 15%;
+}
+
+.testimonial h1{
+    margin-left : 35%;
+    color : #86032D;
+    text-decoration: underline  #FFC300;
+    font-weight : bold;
+    font-family : 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+}
+
+.testimonial div {
+    position : relative;
+    margin-left : 20%;
+    font-size : 18px;
+}
+
+.testimonial-name{
+    position: absolute;
+    left : 70%;
+    font-size : 18px;
+    color : #86032D;
+}
+
+.testimonial-city{
+    position : absolute;
+    left : 75%;
+    margin-top: 4%;
+    font-size : 14px;
+    color : rgb(13, 107, 231);
+}
+
+.foot-body{
+    background-color: rgb(121, 24, 54);
+    margin-top : 8%;
+    color : white;
+    padding-top: 3%;
+}
+
+.col-sm-2 ul{
+    list-style : none;
+}
+.col-sm-2 ul li{
+    margin-top : 2%;
+}
+
+.newsletter{
+    margin-left : 10%;
+    color : #FFC300;
+    font-size : 20px;
+}
+
+.footer-logo{
+    border : 6px solid #FFC300;
+    padding: 2px;
+    font-size : 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight : bold;
+    margin-left : 5%;
+    color : white;
+}
+
+.rights{
+    margin-top : 5%;
+    margin-left : 40%;
+    font-size : 15px;
+}
+
+.victoria{
+    margin-left : 12%;
+}
+
+#foot-logo-div{
+    margin-top: 20%; 
+     margin-left:6%"
+}
+
+.col-sm-3 div i {
+    color : #FFC300;
+    margin-right: 4%;
+}
+}
