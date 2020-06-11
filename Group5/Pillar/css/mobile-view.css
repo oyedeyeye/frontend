@@ -1,0 +1,301 @@
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        /* background: #1E1D1D; */
+    }
+}
+.view,body,html{height:100%}.navbar.page-footer,.top-nav-collapse{background-color:#787777}@media only screen and (max-width:768px){.navbar{background-color:#787777}}
+
+
+/*(large) tablet-view */
+@media (min-width: 600px) and (max-width: 768px){
+    .rooms{
+        margin-top: 150px;
+        overflow: hidden;
+        height: 370vh;
+    }
+    .rooms .holder p{
+        font-size: 18px;
+        font-family: gotham;
+        margin-top: 15px;
+    }
+    .rooms .holder button{
+        background-color: #8C1648;
+        border: none;
+        color: white;
+        margin-left: 20%;
+        padding: 8px 14px;
+        margin-top: -15px;
+    }
+    .rooms .holder .right:after{
+        content: ' ₦35,000';
+        position: absolute;
+        width: 19%;
+        height: 40px;
+        line-height: 0;
+        background-color: #8C1648;
+        margin-left: -20%;
+        margin-top: 50px;
+        padding: 20px 20px 20px 9px;
+        border-radius: 7px;
+        color: white;
+        font-size: 13px;
+    }
+    .rooms .holder .right-two:after{
+        content: ' ₦42,700';
+        position: absolute;
+        width: 19%;
+        height: 40px;
+        line-height: 0;
+        background-color: #8C1648;
+        margin-left: -20%;
+        margin-top: 50px;
+        padding: 20px 20px 20px 9px;
+        border-radius: 7px;
+        color: white;
+        font-size: 12px;
+    }
+
+    .rooms .holder .right-three:after{
+        content: ' ₦75,000';
+        position: absolute;
+        width: 19%;
+        height: 40px;
+        line-height: 0;
+        background-color: #8C1648;
+        margin-left: -20%;
+        margin-top: 50px;
+        padding: 20px 20px 20px 9px;
+        border-radius: 7px;
+        color: white;
+        font-size: 12px;
+    }
+    .rooms .holder .right-four:after{
+        content: ' ₦81,300';
+        position: absolute;
+        width: 19%;
+        height: 40px;
+        line-height: 0;
+        background-color: #8C1648;
+        margin-left: -20%;
+        margin-top: 50px;
+        padding: 20px 20px 20px 9px;
+        border-radius: 7px;
+        color: white;
+        font-size: 12px;
+    }
+}
+
+/* (small)tablet-view */
+@media (min-width: 425px) and (max-width: 599px){
+    .rooms{
+        margin-top: 150px;
+        overflow: hidden;
+        height: 570vh;
+    }
+    .rooms .holder p{
+        font-size: 17px;
+        font-family: gotham;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .rooms .holder button{
+        background-color: #8C1648;
+        border: none;
+        color: white;
+        margin-left: 30%;
+        padding: 8px 14px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    .rooms .holder{
+        box-shadow: 0px 23px 44px rgba(0, 0, 0, 0.25);
+        width:100%;
+        height:670px;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 20px;
+        margin-bottom: 120px;
+        }
+        .rooms .holder .right:after{
+            content: ' ₦35,000';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 14px;
+        }
+        .rooms .holder .right-two:after{
+            content: ' ₦42,700';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 14px;
+        }
+    
+        .rooms .holder .right-three:after{
+            content: ' ₦75,000';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 14px;
+        }
+        .rooms .holder .right-four:after{
+            content: ' ₦81,300';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 14px;
+        }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .nav-link{
+        font-size: 20px;
+    }
+    .view h1{
+        font-size: 11vw;
+        margin-left: 15%;
+        margin-top: -300px;
+    }
+  
+    .rooms .holder button{
+        background-color: #8C1648;
+        border: none;
+        color: white;
+        margin-left: 30%;
+        padding: 8px 14px;
+        margin-top: -18px;
+        margin-bottom: 10px;
+    }
+    .rooms{
+        margin-top: 150px;
+        overflow: hidden;
+        height: 600vh;
+    }
+    .rooms .holder p{
+        font-size: 17px;
+        font-family: gotham;
+        margin-top: 15px;
+    }
+    .rooms .holder button{
+        background-color: #8C1648;
+        border: none;
+        color: white;
+        margin-left: 20%;
+        padding: 8px 14px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+    }
+    .rooms .holder{
+        box-shadow: 0px 23px 44px rgba(0, 0, 0, 0.25);
+        width:100%;
+        height:770px;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-right: 20px;
+        margin-bottom: 120px;
+        }
+        .rooms .holder .right:after{
+            content: ' ₦35,000';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 10px;
+        }
+        .rooms .holder .right-two:after{
+            content: ' ₦42,700';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 10px;
+        }
+    
+        .rooms .holder .right-three:after{
+            content: ' ₦75,000';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 10px;
+        }
+        .rooms .holder .right-four:after{
+            content: ' ₦81,300';
+            position: absolute;
+            width: 19%;
+            height: 40px;
+            line-height: 0;
+            background-color: #8C1648;
+            margin-left: -20%;
+            margin-top: 50px;
+            padding: 20px 20px 20px 9px;
+            border-radius: 7px;
+            color: white;
+            font-size: 10px;
+        }
+        footer{
+            background-color: #8C1648;  
+            width:100%;
+            height: 900px; 
+            
+            }
+        footer .first{
+            padding-top: 50px;
+        }
+
+        footer .lastt{
+            text-align: center;
+            color: white;
+            font-family: gotham;
+            font-size: 18px;
+            margin-top: 60px;
+        }
+}  
+
+ 
