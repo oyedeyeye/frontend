@@ -11,11 +11,11 @@ p {
 
 .grey-section {
     background-color: #f7f7f7;
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0 80px 0;
 }
 
 .white-section {
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0 80px 0;
 }
 
 .group-header {
@@ -27,7 +27,7 @@ p {
 }
 
 .home-btn {
-    border-radius:0px;
+    border-radius:0;
 }
 
 .image-wrapper:hover {
@@ -111,7 +111,6 @@ p {
     background: rgba(91, 14, 34, 0.7);
     color: white;
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
     height: 50vh;
     font-family: "Merriweather", serif;
 }
