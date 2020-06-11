@@ -129,7 +129,7 @@ Suggestions of other directories can be made to @p_yn3 or @codessage on slack.
 
 ## Marketing Strategy
 
-The goal of the marketing team is to increase the number of downloads across all directories to a minimum of 1000. Our target audience is anybody with access to the internet and the ultimate goal is to reach out to organizations in need of websites.]{?'pyut5458}
+The goal of the marketing team is to increase the number of downloads across all directories to a minimum of 1000. Our target audience is anybody with access to the internet and the ultimate goal is to reach out to organizations in need of websites.
 
 We intend to make use of social media platforms and digital marketers. The members of **team-fury** are expected to share the download links to all their social media platforms
 
