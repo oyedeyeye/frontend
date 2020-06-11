@@ -9,6 +9,14 @@
   font-weight: bold;
 }
 
+/* new style [@felisto]*/
+@media screen and (max-width: 560px) {
+  .arrange{
+    flex-direction: column;
+  }
+}
+/* end of new style */
+
 .logo-footer {
   border-left: 2px solid white;
 }
